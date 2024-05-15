@@ -38,7 +38,7 @@ from .utils import login_url as make_login_url
 from .utils import make_next_param
 
 
-class LoginManager:
+class LoginSystem:
     def __init__(self, app=None, add_context_processor=True):
         #: A class or factory function that produces an anonymous user, which
         #: is used when no one is logged in.
